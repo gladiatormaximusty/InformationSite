@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:' Noto Sans TC','sans-serif';
+}
+
+p,a,span,li,label{
+    font-family: 'Open Sans','sans-serif';
+}
+
+img{
+    max-width: 100%;
+}
+@media only screen and (max-width:768px){
+
+    main .main-article-title, main .sub-article-title, main .recent-articles{
+        font-size: 1.25em;
+    }
+    footer h4{
+        margin-top: 30px;
+    }
+}

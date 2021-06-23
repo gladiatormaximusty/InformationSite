@@ -1,0 +1,73 @@
+main{
+    padding: 80px;
+}
+
+main  a{
+    color: #000000;
+}
+
+main .main-article-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main .main-article-category,main .main-name:hover, main .sub-article-arthur:hover{
+    color: rgba(0,0,0,.4);
+}
+
+main .main-article-category:hover,main .main-article-title:hover, main .authur-name:hover,main .sub-article-title:hover, main .sub-article-category:hover,main .demo-link:hover{
+    text-decoration: underline;
+}
+
+main .recent-articles{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+main .article_list{
+    /* box-shadow: 0 0 8px 0 rgba(0,0,0,.3); */
+    padding: 25px;
+}
+
+main .sub-article-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+main .sub-article-category, main .sub-article-date{
+    color:rgba(0, 0, 0, .2);
+    font-size: .8em;
+}
+
+main .sub-article-arthur{
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+
+main .demo-link{
+    color:blue;
+    
+}
+
+
+/* ( 側邊欄位：右邊 )廣告、書籤或其他區塊 */
+main .othersection{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+main .sponsors, main .article_tag{
+    font-weight: bold;
+    color: rgba(0, 0, 0, .4);
+}
+
+
+
+/* 文章書籤 */
+main .article_tag button{
+    margin: 5px;
+    font-size: 9px;
+}

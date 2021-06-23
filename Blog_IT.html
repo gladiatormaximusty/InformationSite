@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- NaviBar_Blog CSS -->
+    <link rel="stylesheet" href="./css/style_NaviBar_BlogIT.css">
+    <!-- Main-Blog CSS -->
+    <link rel="stylesheet" href="./css/style_MainBlog_BlogIT.css">
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="./css/style_footer.css">
+    <!-- Public CSS -->
+    <link rel="stylesheet" href="./css/style_public.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-IT</title>
+</head>
+
+<body>
+    <!-- Navi-Bar 區域-->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"> <img src="./pictures/logo.png" width="50" height="50" alt="">IT -
+                    技術分享</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarList"
+                    aria-controls="navBarList" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navBarList">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item"><a class="nav-link" href="#">首頁</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="IT_skills" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">技術分享</a>
+                            <div class="dropdown-menu" aria-labelledby="IT_skills">
+                                <a class="dropdown-item" href="#">JavaScript</a>
+                                <a class="dropdown-item" href="#">NodeJS</a>
+                                <a class="dropdown-item" href="#">Vue.JS</a>
+                                <a class="dropdown-item" href="#">Power BI</a>
+                                <a class="dropdown-item" href="#">SQL</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="life_sharing" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">生活導覽</a>
+                            <div class="dropdown-menu" aria-labelledby="life_sharing">
+                                <a class="dropdown-item" href="#">健身周記</a>
+                                <a class="dropdown-item" href="#">美食天地</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="about_us" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">關於我們</a>
+                            <div class="dropdown-menu" aria-labelledby="about_us">
+                                <a class="dropdown-item" href="#">網站宗旨</a>
+                                <a class="dropdown-item" href="#">聯絡我們</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="service_admin" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">會員服務</a>
+                            <div class="dropdown-menu" aria-labelledby="service_admin">
+                                <a class="dropdown-item" href="#">登入</a>
+                                <a class="dropdown-item disabled" href="#">會員註冊</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Main-Blog 區域 -->
+    <main>
+        <!-- 最新文章展示 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <img class="img-responsive" width="100%" src="http://via.placeholder.com/800x500" alt="">
+                </div>
+                <div class="col-md-4">
+                    <br />
+                    <span class="main-article-category">Article Category</span>
+                    <br />
+                    <a href="#">
+                        <span class="main-article-title">This is the article title... Crazy things are happening that
+                            you
+                            should know about!</span>
+                    </a>
+
+                    <br />
+                    <span>By <span class="arthur-name">Edward</span></span>
+                </div>
+            </div>
+            <br /></br>
+            <!-- 近期文章區塊 -->
+            <span class="recent-articles">近期文章</span>
+            <hr />
+            <div class="row">
+                <div class="col-md-9 article_list">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img class="img-responsive" width="100%" src="http://via.placeholder.com/800x500" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <br />
+                            <span class="sub-article-date">2021/01/01</span>
+                            <br />
+                            <a href="#"><span class="sub-article-title">This is the article title... Crazy things are
+                                    happening that
+                                    you
+                                    should know about!</span></a>
+
+                            <br />
+                            <span class="sub-article-arthur">By <span class="arthur-name">Edward</span></span>
+                            <br />
+                            <span class="sub-article-category">Article Category</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" width="100%" src="http://via.placeholder.com/800x500" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <br />
+                            <span class="sub-article-date">2021/01/01</span>
+                            <br />
+                            <a href="#">
+                                <span class="sub-article-title">This is the article title... Crazy things are happening
+                                    that
+                                    you
+                                    should know about!</span>
+                            </a>
+                            <br />
+                            <span class="sub-article-arthur">By <span class="arthur-name">Edward</span></span>
+                            <br />
+                            <span class="sub-article-category">Article Category</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" width="100%" src="http://via.placeholder.com/800x500" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <br />
+                            <span class="sub-article-date">2021/01/01</span>
+                            <br />
+                            <a href="#">
+                                <span class="sub-article-title">This is the article title... Crazy things are happening
+                                    that
+                                    you
+                                    should know about!</span>
+                            </a>
+                            <br />
+                            <span class="sub-article-arthur">By <span class="arthur-name">Edward</span></span>
+                            <br />
+                            <span class="sub-article-category">Article Category</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="text-right"><a href="#"><span class="demo-link">More</span></a> </div>
+                </div>
+                <!-- 廣告 / 文章列表 區塊 -->
+                <div class="col-md-3 otherblock">
+                    <!-- 書籤 -->
+                    <div class="row">
+                        <div class="othersection">
+                            <span class="article_tag">Tags：</span>
+                            <div class="article_tag">
+                                <button type="button" class="btn btn-primary rounded-pill">
+                                    #Javascript <span class="badge bg-secondary "
+                                        style="background-color: #000;">9</span>
+                                </button>
+                                <button type="button" class="btn btn-primary rounded-pill">
+                                    #SQL <span class="badge bg-secondary">2</span>
+                                </button>
+                                <button type="button" class="btn btn-primary rounded-pill">
+                                    #NodeJS <span class="badge bg-secondary">10</span>
+                                </button>
+                                <button type="button" class="btn btn-primary rounded-pill">
+                                    #Power BI <span class="badge bg-secondary">3</span>
+                                </button>
+                                <button type="button" class="btn btn-primary rounded-pill">
+                                    #Podcast <span class="badge bg-secondary">21</span>
+                                </button>
+                                <button type="button" class="btn btn-primary rounded-pill">
+                                    #Vue.JS <span class="badge bg-secondary">21</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 廣告 -->
+                    <div class="row">
+                        <div class="othersection">
+                            <span class="sponsors">廣告區塊</span>
+                            <br /><br />
+                            <a href="#"><img class="img-responsive" width="100%"
+                                    src="http://via.placeholder.com/600x800" alt=""></a>
+                            <br /> <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer 區域 -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <h4>友情連結</h4>
+                    <ul>
+                        <li><a href="https://www.daisylove3c.com/daisypodcast" target="_blank">DaisyLove3C</a></li>
+                        <li><a href="https://blog.alantsai.net/" target="_blank">Alan Tsai 學習筆記</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>連結</h4>
+                    <ul>
+                        <li><a href="#">技術分享</a></li>
+                        <li><a href="#">生活導覽</a> </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">關於我們</a> </li>
+                        <li><a href="#">會員服務</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>聯絡我們</h4>
+                    <p>
+                        Phone：+886 989332098 <br>
+                        E-mail：<a href="Edward:gladiatormaximusty99@gmail.com">gladiatormaximusty99@gmail.com</a><br>
+                        更多的資訊，歡迎與我們聯繫 ~~
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
